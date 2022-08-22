@@ -1,0 +1,101 @@
+.main {
+  :global {
+    .header {
+      padding-top: 10px;
+      margin-left: 5px;
+    }
+    .login {
+      position: absolute;
+      right: 30px;
+      top: 11px;
+      font-size: 20px;
+    }
+    .header button {
+      border: none;
+      background-color: #788cde;
+      color: #fff;
+      padding-top: 4px;
+      margin-left: 17px;
+    }
+    .menuButton {
+      margin-top: 17px;
+      margin-left: 19px;
+      font-size: 20px;
+      background-color: #fff;
+      border: none;
+      color: #333;
+    }
+  }
+}
+
+.menuButton {
+  margin-top: 17px;
+  margin-left: 19px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: #7ec1ff;
+  border: none;
+  color: #333;
+}
+.list-one {
+  margin-left: 10px;
+  margin-top: 17px;
+  font-size: 15px;
+  margin-right: 10px;
+  a {
+    color: #333;
+    align-items: center;
+    border-radius: 3px;
+    display: flex;
+    padding: 5px;
+    background-color: #fff;
+  }
+  .active {
+    color: #788cde;
+    background-color: #e8e8e8;
+  }
+  span {
+    margin-left: 8px;
+  }
+}
+.active {
+  color: #788cde;
+  background-color: #e8e8e8;
+}
+.icon-home:before {
+  font-size: 17px;
+}
+.exit {
+  width: 90%;
+  vertical-align: bottom;
+  padding: 10px;
+  margin: 0px 12px;
+  position: absolute;
+  bottom: 20px;
+  background-color: #7ec1ff;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7ec1ff;
+  span {
+    margin-top: 21px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #fff;
+  }
+}
+.icon-kong:before {
+  font-size: 45px;
+  position: relative;
+  color: #fff;
+  align-items: center;
+  top: 40%;
+  left: 43%;
+}
+.isKong {
+  display: none;
+}

@@ -1,0 +1,56 @@
+.important {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0 20px;
+
+  :global {
+    .header {
+      align-items: center;
+      color: #fff;
+      display: flex;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      padding: 0 5px;
+    }
+    .text {
+      margin-left: 10px;
+    }
+    .icon-shoucang:before {
+      font-size: 23px;
+    }
+  }
+}
+.list {
+  height: 100%;
+  flex: 1;
+  margin-bottom: 64px;
+  overflow: auto;
+}
+.title {
+  font-size: 17px;
+  color: #969799;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ebedf0;
+}
+.item {
+  color: #646566;
+  padding: 15px 0;
+  text-align: center;
+}
+.item1 {
+  color: #646566;
+  padding: 15px 0;
+  text-align: center;
+  color: red;
+}
+.interval {
+  background: #f7f8fa;
+  height: 8px;
+}
+.isKong {
+  display: none;
+}

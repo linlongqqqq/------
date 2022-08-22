@@ -1,0 +1,79 @@
+.bottomMenu {
+  overflow: hidden;
+  :global {
+    .cover_yes {
+      visibility: hidden;
+      height: 100%;
+      position: absolute;
+      transition: all 0.2s ease-in-out;
+      width: 100%;
+      background-color: black;
+      overflow: hidden;
+      opacity: 0.3;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      transform: translateY(0);
+    }
+    .cover_no {
+      visibility: visible;
+      overflow: hidden;
+      height: 100%;
+      position: absolute;
+      transition: all 0.2s ease-in-out;
+      width: 100%;
+      background-color: black;
+      opacity: 0.3;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      transform: translateY(0);
+    }
+
+    .select_yes {
+      visibility: hidden;
+      width: 100%;
+      height: 40%;
+      font-size: 16px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 0.2s ease-in-out;
+      z-index: 2;
+      transform: translateY(100%);
+    }
+    .select_no {
+      visibility: visible;
+      width: 100%;
+      height: 40%;
+      font-size: 16px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 0.2s ease-in-out;
+      z-index: 2;
+      transform: translateY(0);
+    }
+    .title {
+      font-size: 17px;
+      color: #969799;
+      text-align: center;
+      padding: 15px;
+      border-bottom: 1px solid #ebedf0;
+    }
+    .item {
+      color: #646566;
+      padding: 15px 0;
+      text-align: center;
+    }
+    .interval {
+      background: #f7f8fa;
+      height: 8px;
+    }
+    .del {
+      color: red;
+    }
+  }
+}

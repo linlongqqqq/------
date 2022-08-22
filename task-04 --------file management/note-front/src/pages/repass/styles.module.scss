@@ -1,0 +1,25 @@
+.repass {
+  :global {
+    .title {
+      background-color: #fff;
+      margin-bottom: 10px;
+    }
+    footer {
+      display: flex;
+      flex: 1;
+      justify-content: space-around;
+      margin: 30px 15px;
+    }
+    .adm-list-body-inner {
+      margin-top: -1px;
+      margin: 0 15px;
+    }
+    .adm-list-item-content {
+      border-bottom: var(--border-inner);
+      border-top: 0;
+    }
+    .adm-list-body {
+      margin: 0 25px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.register {
+  height: 100%;
+  height: 900px;
+  background-color: #ffff;
+  :global {
+    .title {
+      text-align: center;
+      border-bottom: var(--border-inner);
+      margin: 15px 15px 20px 15px;
+    }
+    footer {
+      display: flex;
+      flex: 1;
+      justify-content: space-around;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .adm-list-body-inner {
+      margin-top: -1px;
+      margin: 0 25px;
+    }
+    .adm-list-item-content {
+      border-bottom: var(--border-inner);
+      border-top: 0;
+    }
+
+    .adm-list-default .adm-list-body {
+      border-bottom: none;
+    }
+    .adm-nav-bar-back {
+      margin-left: -40px;
+    }
+  }
+}

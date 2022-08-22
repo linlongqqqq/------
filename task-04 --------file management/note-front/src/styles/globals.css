@@ -1,0 +1,142 @@
+:root {
+  --adm-color-primary: #31c27c;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  background: #f4f4f4;
+  min-height: 100vh;
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+.folder_title {
+  text-align: center;
+  background-color: #fff;
+  height: 50px;
+}
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.main {
+  flex: 1;
+  overflow: auto;
+  /* padding: 15px; */
+}
+.navbar {
+  background: #fff;
+}
+.content {
+  min-height: calc(100vh - 145px);
+}
+.empty {
+  vertical-align: middle;
+  margin-top: 20vh;
+}
+.file_add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  background: #1677ff;
+  color: #fff;
+  box-shadow: 0 0 5px 0 rgb(22 119 255 / 80%);
+}
+.adm-popup-body {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+.adm-action-sheet-button-list {
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+.adm-action-sheet-button-item {
+  text-align: center;
+  display: block;
+  background-color: #fff;
+  padding: 16px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+.adm-action-sheet-button-item-cancel {
+  text-align: center;
+  display: block;
+  background-color: #fff;
+  padding: 16px;
+}
+.adm-action-sheet-button-item-name {
+  color: black;
+  font-size: 18px;
+}
+.adm-action-sheet-button-cancel {
+  background-color: rgb(245, 245, 245);
+  padding-top: 8px;
+}
+.adm-action-sheet-button-item-name .del {
+  color: red;
+}
+.prop_share {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+}
+.prop_share_title {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.prop_share_input {
+  background: none;
+  outline: none;
+  border: none;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #666;
+}
+.prop_share_title_span {
+  margin-left: 10px;
+}
+.prop_share_button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.button_copy_color {
+  background-color: rgb(22, 119, 255);
+}
+.button_cancel_color {
+  background-color: rgb(255, 49, 65);
+}
+.prop_share_button_span {
+  font-size: 17px;
+  color: #ffff;
+}
+.rename_input {
+  width: 100%;
+  padding: 12px;
+}
+.rename_title {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.ql-container.ql-snow {
+  border: none !important;
+}

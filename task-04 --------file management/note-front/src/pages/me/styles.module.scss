@@ -1,0 +1,73 @@
+.me {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+
+  .main {
+    flex: 1 1;
+    overflow: auto;
+  }
+  .warp {
+    height: 100%;
+    padding: 10px;
+  }
+  .me_top {
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+  }
+  .list {
+    --align-items: center;
+    --padding-left: 12px;
+    --padding-right: 12px;
+    --extra-max-width: 70%;
+  }
+  .image {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .nikname {
+    text-align: center;
+    font-size: 17px;
+  }
+  .list_body {
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .adm-list-item {
+    display: block;
+    padding-left: 10px;
+    position: relative;
+    background-color: #fff;
+    line-height: 1.5;
+  }
+  .adm-plain-anchor {
+    color: #fff;
+    transition: none;
+  }
+  .adm_list_item_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+  }
+  .adm_list_item_content_prefix {
+    flex: none;
+    vertical-align: middle;
+    padding: 14px 10px 12px 0;
+  }
+  .adm_list_item_content_main {
+    flex: auto;
+    padding: 12px 0;
+    font-size: 17px;
+  }
+  .adm_list_item_content_arrow {
+    flex: none;
+    vertical-align: middle;
+    padding: 12px 0 12px 0;
+  }
+}

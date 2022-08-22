@@ -1,0 +1,19 @@
+.list {
+  height: 100%;
+  flex: 1;
+  margin-bottom: 64px;
+  overflow: auto;
+  :global {
+    .icon-kong:before {
+      font-size: 45px;
+      position: relative;
+      color: #fff;
+      align-items: center;
+      top: 40%;
+      left: 43%;
+    }
+    .isKong {
+      display: none;
+    }
+  }
+}
